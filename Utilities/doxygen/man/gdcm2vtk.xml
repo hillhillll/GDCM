@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <?xml-stylesheet type="text/xsl" href="http://docbook.sourceforge.net/release/xsl-ns/current/manpages/docbook.xsl" ?>
 <!DOCTYPE Data [ <!ENTITY version SYSTEM 'version.txt'> ]>
-<refentry xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xmlns="https://docbook.org/ns/docbook" version="5.0" xmlns:xlink="https://www.w3.org/1999/xlink">
 <info>
 <author><personname><firstname>Mathieu</firstname><surname>Malaterre</surname></personname><contrib>Main developer</contrib></author>
 <copyright><year>2006</year><year>2011</year><holder>Mathieu Malaterre</holder></copyright>
@@ -104,7 +104,7 @@ file-out  output filename (DICOM or VTK supported)
 <para><literallayout>$ gdcm2vtk inputfile output.dcm
 </literallayout></para>
 
-<para>It uses the internal factory mechanism of VTK to recognize a file (CanRead function). See VTK supported file here: <literallayout>  What image file formats can VTK read and write? http://www.vtk.org/Wiki/VTK_FAQ#What_image_file_formats_can_VTK_read_and_write.3F
+<para>It uses the internal factory mechanism of VTK to recognize a file (CanRead function). See VTK supported file here: <literallayout>  What image file formats can VTK read and write? https://www.vtk.org/Wiki/VTK_FAQ#What_image_file_formats_can_VTK_read_and_write.3F
 </literallayout></para>
 
 <para>If your input file has 4 components, the 4th comp (alpha) will be removed from the output file as DICOM does not support alpha component anymore (see &#8211;argb option).</para>

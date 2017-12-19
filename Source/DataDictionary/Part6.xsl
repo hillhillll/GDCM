@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet version="1.0" xmlns:dk="http://docbook.org/ns/docbook" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" exclude-result-prefixes="dk">
+<xsl:stylesheet version="1.0" xmlns:dk="https://docbook.org/ns/docbook" xmlns:xsl="https://www.w3.org/1999/XSL/Transform" exclude-result-prefixes="dk">
 <!--
   Program: GDCM (Grassroots DICOM). A DICOM library
 
   Copyright (c) 2006-2011 Mathieu Malaterre
   All rights reserved.
-  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+  See Copyright.txt or https://gdcm.sourceforge.net/Copyright.html for details.
 
      This software is distributed WITHOUT ANY WARRANTY; without even
      the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
@@ -22,7 +22,7 @@
 
   Copyright (c) 2006-2011 Mathieu Malaterre
   All rights reserved.
-  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+  See Copyright.txt or https://gdcm.sourceforge.net/Copyright.html for details.
 
      This software is distributed WITHOUT ANY WARRANTY; without even
      the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
@@ -293,7 +293,7 @@ Manual changes:
 </xsl:template>
 -->
 
-<!-- http://stackoverflow.com/questions/5268182/how-to-remove-namespaces-from-xml-using-xslt -->
+<!-- https://stackoverflow.com/questions/5268182/how-to-remove-namespaces-from-xml-using-xslt -->
     <!-- template to copy elements -->
     <xsl:template match="*">
         <xsl:element name="{local-name()}">

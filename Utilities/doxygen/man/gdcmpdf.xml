@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <?xml-stylesheet type="text/xsl" href="http://docbook.sourceforge.net/release/xsl-ns/current/manpages/docbook.xsl" ?>
 <!DOCTYPE Data [ <!ENTITY version SYSTEM 'version.txt'> ]>
-<refentry xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xmlns="https://docbook.org/ns/docbook" version="5.0" xmlns:xlink="https://www.w3.org/1999/xlink">
 <info>
 <author><personname><firstname>Mathieu</firstname><surname>Malaterre</surname></personname><contrib>Main developer</contrib></author>
 <copyright><year>2006</year><year>2011</year><holder>Mathieu Malaterre</holder></copyright>
@@ -63,7 +63,7 @@ file-out  DICOM output filename
 <refsection xml:id="gdcmpdf_1usage_example">
 <title>Usage Example</title>
 
-<para><literallayout>$ wget http://gdcm.sourceforge.net/gdcm.pdf
+<para><literallayout>$ wget https://gdcm.sourceforge.net/gdcm.pdf
 $ gdcmpdf gdcm.pdf gdcm.dcm
 </literallayout></para>
 

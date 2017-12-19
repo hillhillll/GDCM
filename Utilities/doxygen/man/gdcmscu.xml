@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <?xml-stylesheet type="text/xsl" href="http://docbook.sourceforge.net/release/xsl-ns/current/manpages/docbook.xsl" ?>
 <!DOCTYPE Data [ <!ENTITY version SYSTEM 'version.txt'> ]>
-<refentry xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xmlns="https://docbook.org/ns/docbook" version="5.0" xmlns:xlink="https://www.w3.org/1999/xlink">
 <info>
 <author><personname><firstname>Mathieu</firstname><surname>Malaterre</surname></personname><contrib>Main developer</contrib></author>
 <copyright><year>2006</year><year>2011</year><holder>Mathieu Malaterre</holder></copyright>
@@ -309,7 +309,7 @@
 
 <para>An up to date list of DICOM Public Servers can be found at:</para>
 
-<para><link xlink:href="http://www.dclunie.com/medical-image-faq/html/part8.html#DICOMPublicServers">http://www.dclunie.com/medical-image-faq/html/part8.html#DICOMPublicServers</link></para>
+<para><link xlink:href="https://www.dclunie.com/medical-image-faq/html/part8.html#DICOMPublicServers">https://www.dclunie.com/medical-image-faq/html/part8.html#DICOMPublicServers</link></para>
 </refsection>
 <refsection xml:id="gdcmscu_1see_also">
 <title>SEE ALSO</title>

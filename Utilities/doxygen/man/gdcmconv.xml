@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <?xml-stylesheet type="text/xsl" href="http://docbook.sourceforge.net/release/xsl-ns/current/manpages/docbook.xsl" ?>
 <!DOCTYPE Data [ <!ENTITY version SYSTEM 'version.txt'> ]>
-<refentry xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xmlns="https://docbook.org/ns/docbook" version="5.0" xmlns:xlink="https://www.w3.org/1999/xlink">
 <info>
 <author><personname><firstname>Mathieu</firstname><surname>Malaterre</surname></personname><contrib>Main developer</contrib></author>
 <copyright><year>2006</year><year>2011</year><holder>Mathieu Malaterre</holder></copyright>
@@ -353,7 +353,7 @@ When no option other is used, only the dataset is inspected. So encapsulated Pix
 
 <para>For more detail, see what are the true lossless transformations as described:</para>
 
-<para><link xlink:href="http://gdcm.sourceforge.net/wiki/index.php/Color_Space_Transformations">http://gdcm.sourceforge.net/wiki/index.php/Color_Space_Transformations</link></para>
+<para><link xlink:href="https://gdcm.sourceforge.net/wiki/index.php/Color_Space_Transformations">https://gdcm.sourceforge.net/wiki/index.php/Color_Space_Transformations</link></para>
 </refsection>
 <refsection xml:id="gdcmconv_1quality_control">
 <title>Quality Control</title>

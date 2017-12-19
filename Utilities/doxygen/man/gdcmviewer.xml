@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <?xml-stylesheet type="text/xsl" href="http://docbook.sourceforge.net/release/xsl-ns/current/manpages/docbook.xsl" ?>
 <!DOCTYPE Data [ <!ENTITY version SYSTEM 'version.txt'> ]>
-<refentry xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+<refentry xmlns="https://docbook.org/ns/docbook" version="5.0" xmlns:xlink="https://www.w3.org/1999/xlink">
 <info>
 <author><personname><firstname>Mathieu</firstname><surname>Malaterre</surname></personname><contrib>Main developer</contrib></author>
 <copyright><year>2006</year><year>2011</year><holder>Mathieu Malaterre</holder></copyright>
@@ -100,7 +100,7 @@
 <refsection xml:id="gdcmviewer_1wiki_link">
 <title>Wiki Link</title>
 
-<para>The wiki page, with color pictures can be found at: <link xlink:href="http://gdcm.sourceforge.net/wiki/index.php/Gdcmviewer">http://gdcm.sourceforge.net/wiki/index.php/Gdcmviewer</link></para>
+<para>The wiki page, with color pictures can be found at: <link xlink:href="https://gdcm.sourceforge.net/wiki/index.php/Gdcmviewer">https://gdcm.sourceforge.net/wiki/index.php/Gdcmviewer</link></para>
 </refsection>
 <refsection xml:id="gdcmviewer_1see_also">
 <title>SEE ALSO</title>

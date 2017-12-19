@@ -1,6 +1,6 @@
 # Documentation
-# http://www.stack.nl/~dimitri/doxygen
-# http://www.stack.nl/~dimitri/doxygen/commands.html#cmdsa
+# https://www.stack.nl/~dimitri/doxygen
+# https://www.stack.nl/~dimitri/doxygen/commands.html#cmdsa
 if(GDCM_DOCUMENTATION)
 
   find_package(Doxygen REQUIRED)
@@ -53,17 +53,17 @@ if(GDCM_DOCUMENTATION)
   )
   if(GDCM_MINOR_VERSION MATCHES "[02468]$")
     set(GDCM_DOC_PDF_LINK
-      "http://gdcm.sourceforge.net/${GDCM_MAJOR_VERSION}.${GDCM_MINOR_VERSION}/gdcm-${GDCM_VERSION}.pdf"
+      "https://gdcm.sourceforge.net/${GDCM_MAJOR_VERSION}.${GDCM_MINOR_VERSION}/gdcm-${GDCM_VERSION}.pdf"
     )
     set(GDCM_DOC_TARBALL_LINK
-      "http://gdcm.sourceforge.net/${GDCM_MAJOR_VERSION}.${GDCM_MINOR_VERSION}/gdcm-${GDCM_VERSION}-doc.tar.gz"
+      "https://gdcm.sourceforge.net/${GDCM_MAJOR_VERSION}.${GDCM_MINOR_VERSION}/gdcm-${GDCM_VERSION}-doc.tar.gz"
     )
   else()
     set(GDCM_DOC_PDF_LINK
-      "http://gdcm.sourceforge.net/gdcm-${GDCM_VERSION}.pdf"
+      "https://gdcm.sourceforge.net/gdcm-${GDCM_VERSION}.pdf"
     )
     set(GDCM_DOC_TARBALL_LINK
-      "http://gdcm.sourceforge.net/gdcm-${GDCM_VERSION}-doc.tar.gz"
+      "https://gdcm.sourceforge.net/gdcm-${GDCM_VERSION}-doc.tar.gz"
     )
   endif()
   configure_file(
@@ -119,7 +119,7 @@ if(GDCM_DOCUMENTATION)
                ${CMAKE_CURRENT_BINARY_DIR}/latex/refman.pdf # output #2
       # Command #1
       COMMAND  ${SED_EXECUTABLE}
-      ARGS     -i.tmp -e "'s/]{hyperref}/]{hyperref}\\\\hypersetup{pdftitle={GDCM ${GDCM_VERSION} Reference Manual},pdfauthor={Mathieu Malaterre and co.},pdfsubject={Grassroots DICOM API reference},pdfkeywords={GDCM,DICOM,Network,Query\\/Retrieve,JPEG,Lossless JPEG,JPEG-LS,J2K,JPEG 2000,RLE},pdfpagemode={UseOutlines},bookmarks,bookmarksopen,pdfstartview={FitH},backref,colorlinks,linkcolor={black},citecolor={black},urlcolor={black},baseurl={http:\\/\\/gdcm.sourceforge.net}}\\\\hyperbaseurl{http:\\/\\/gdcm.sourceforge.net}/g'" ${CMAKE_CURRENT_BINARY_DIR}/latex/refman.tex
+      ARGS     -i.tmp -e "'s/]{hyperref}/]{hyperref}\\\\hypersetup{pdftitle={GDCM ${GDCM_VERSION} Reference Manual},pdfauthor={Mathieu Malaterre and co.},pdfsubject={Grassroots DICOM API reference},pdfkeywords={GDCM,DICOM,Network,Query\\/Retrieve,JPEG,Lossless JPEG,JPEG-LS,J2K,JPEG 2000,RLE},pdfpagemode={UseOutlines},bookmarks,bookmarksopen,pdfstartview={FitH},backref,colorlinks,linkcolor={black},citecolor={black},urlcolor={black},baseurl={https:\\/\\/gdcm.sourceforge.net}}\\\\hyperbaseurl{https:\\/\\/gdcm.sourceforge.net}/g'" ${CMAKE_CURRENT_BINARY_DIR}/latex/refman.tex
       # Command #2
       COMMAND  ${SED_EXECUTABLE}
       ARGS     -i.tmp -e "'s/${sed_gdcm_source_dir}/gdcm/g'" ${CMAKE_CURRENT_BINARY_DIR}/latex/*.tex
@@ -212,7 +212,7 @@ ${CMAKE_CURRENT_BINARY_DIR}/latex/Makefile
     PATTERN "*.dot" EXCLUDE
   )
 
-  # http://lists.debian.org/debian-italian/2006/12/msg00878.html
+  # https://lists.debian.org/debian-italian/2006/12/msg00878.html
   # man2txt : man man | col -b | less
 
   if(GDCM_USE_VTK)
@@ -300,8 +300,8 @@ else()
 #Error occurred while executing stylesheet 'http://docbook.sourceforge.net/release/xsl-ns/current/manpages/docbook.xsl'.
 #
 #Code:   0x80004005
-#Namespace 'http://exslt.org/common' does not contain any functions.
-# -> http://stackoverflow.com/a/16605034/136285 ??
+#Namespace 'https://exslt.org/common' does not contain any functions.
+# -> https://stackoverflow.com/a/16605034/136285 ??
   endif()
 endif()
 if(XSLT_PROCESSOR)
